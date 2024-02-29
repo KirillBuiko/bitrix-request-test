@@ -8,3 +8,10 @@ export const dealsFieldKeys: FieldKeys<DealsFields> = {
     companyId: "COMPANY_ID",
     ...BaseFieldsKeys
 }
+
+export const requisitesFieldKeys: FieldKeys<RequisitesFields> = {
+    entityId: "ENTITY_ID",
+    entityTypeId: "ENTITY_TYPE_ID",
+    inn: "RQ_INN",
+    ...BaseFieldsKeys
+}

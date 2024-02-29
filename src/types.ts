@@ -10,6 +10,12 @@ interface DealsFields extends BaseFields {
     companyId: string
 }
 
+interface RequisitesFields extends BaseFields {
+    entityId: string,
+    entityTypeId: string,
+    inn: string
+}
+
 type FieldKeys<T> = {[field in keyof T]: string}
 
 type FieldValues<T> = {[field in keyof T]?: T[field]}
